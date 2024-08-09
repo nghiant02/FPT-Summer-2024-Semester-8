@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800080"
+        android:text="Linear Layout"
+        android:textColor="#FFFFFF"
+        android:gravity="left|center_vertical"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"
+        android:text="Android"
+        android:textColor="#D50000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"
+        android:text="PHP"
+        android:textColor="#212121" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#008080"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"
+        android:text="SQL"
+        android:textColor="#FFFF8D" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFC107"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"
+        android:text="PYTHON"
+        android:textColor="#01579B" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PurchasingScrapApp"
+        android:enableOnBackInvokedCallback="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.ForgotPasswordActivity" />
+        <activity android:name=".activity.ScrapListActivity" />
+        <activity android:name=".activity.SearchScrapActivity" />
+        <activity android:name=".activity.PostScrapActivity" />
+        <activity android:name=".activity.ScrapDetailActivity" />
+        <activity android:name=".activity.ChatActivity" />
+        <activity android:name=".activity.RateOrdersActivity" />
+        <activity android:name=".activity.AdminDashboardActivity" />
+        <activity android:name=".activity.StaffDashboardActivity" />
+        <activity android:name=".activity.ManageUsersActivity" />
+        <activity android:name=".activity.ManageScrapPostsActivity" />
+        <activity android:name=".activity.AssignTasksActivity" />
+        <activity android:name=".activity.ViewReportsActivity" />
+        <activity android:name=".activity.ManageStaffActivity" />
+        <activity android:name=".activity.CreateStaffActivity" />
+        <activity android:name=".activity.ManageTasksActivity" />
+    </application>
+</manifest>

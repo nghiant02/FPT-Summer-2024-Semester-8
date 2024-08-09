@@ -1,0 +1,110 @@
+# Ignore Visual Studio temporary files, build results, and
+# Include Rider .NET Core Tooling as well
+
+## User-specific files ##
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files (Mono Auto Generated) ##
+mono_crash.*
+
+## Mono Auto Generated ##
+mono_crash.*
+
+## Build results ##
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## Uncomment if you have tasks that create the project's static website #
+# # Intermediate staging directory used by Web project system #
+# [Pp]ublish/
+# wwwroot/
+
+## MSBuild generated file ##
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Scaffolding ##
+ScaffoldingReadMe.txt
+
+## StyleCop ##
+StyleCopReport.xml
+
+## Files built by Visual Studio ##
+.vscode/
+
+## Rider projects ##
+.idea/
+
+# Ignore Android Studio specific files
+## Gradle ##
+.gradle/
+**/build/
+!gradle-wrapper.jar
+.gradle/
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
+
+## Android Studio ##
+.gradle/
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/contentModel.xml
+.idea/**/modules.xml
+.idea/**/vcs.xml
+.idea/**/assetWizardSettings.xml
+.idea/**/caches/
+.idea/**/workspace.xml
+.idea/**/libraries
+.idea/**/dictionaries
+.idea/**/settings
+.idea/**/libraries
+.idea/**/indexed_root/
+.idea/**/cachedFolder/
+.idea/**/metadata/
+.idea/**/model/
+
+## Android Studio - IntelijIDEA ##
+.idea/*.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/.name
+
+## Android Studio - Gradle ##
+.idea/gradle.xml
+.idea/libraries
+.idea/tasks
+.idea/gradle.xml
+.idea/.name
+.idea/codeStyles
+
+## Android Studio ##
+.DS_Store
+app/outputs/
+
+# Ignore local configuration
+local.properties

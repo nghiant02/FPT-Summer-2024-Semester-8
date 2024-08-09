@@ -1,0 +1,6 @@
+@PEPRN231_SU24TrialTest_StudentName_BE_HostAddress = http://localhost:5167
+
+GET {{PEPRN231_SU24TrialTest_StudentName_BE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

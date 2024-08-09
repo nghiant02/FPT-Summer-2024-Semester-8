@@ -1,0 +1,60 @@
+﻿@page
+@model Web.Pages.PublisersModel
+@{
+    ViewData["Title"] = "Publishers";
+}
+<div class="d-flex justify-content-center">
+    <form method="post" style="width:520px">
+        <div class="form-group">
+            <label asp-for="Publisher.PublisherName">Name:</label>
+            <input asp-for="Publisher.PublisherName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Publisher.City">City:</label>
+            <select asp-for="Publisher.City" class="form-control">
+                <option value="">Select City</option>
+                @foreach (var city in Model.VietnameseCities)
+                {
+                    <option value="@city">@city</option>
+                }
+            </select>
+        </div>
+        <div class="pt-3">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary" onclick="clearForm()">Clear</button>
+        </div>
+    </form>
+</div>
+@if (Model.Publishers != null && Model.Publishers.Any())
+{
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th>PublisherId</th>
+                <th>PublisherName</th>
+                <th>City</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pub in Model.Publishers)
+            {
+                <tr>
+                    <td>@pub.PubId</td>
+                    <td>@pub.PublisherName</td>
+                    <td>@pub.City</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-page="./EditPub" asp-route-id="@pub.PubId" class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-page="./DeletePub" asp-route-id="@pub.PubId" class="btn btn-sm btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No publisher found.</p>
+}

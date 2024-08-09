@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Sách" />
+
+    <EditText
+        android:id="@+id/etNgayXb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày XB"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/etTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thể Loại" />
+
+    <Spinner
+        android:id="@+id/spinnerTacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAddSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sách" />
+
+</LinearLayout>

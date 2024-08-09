@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTenTacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Tác Giả"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/tvDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa Chỉ" />
+
+    <TextView
+        android:id="@+id/tvDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điện Thoại" />
+
+</LinearLayout>

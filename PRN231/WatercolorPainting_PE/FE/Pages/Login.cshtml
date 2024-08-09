@@ -1,0 +1,25 @@
+﻿@page
+@model FE.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<form method="post">
+    <div class="form-group">
+        <label asp-for="login.Email" class="control-label"></label>
+        <input asp-for="login.Email" class="form-control" />
+        <span asp-validation-for="login.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="login.Password" class="control-label"></label>
+        <input asp-for="login.Password" class="form-control" type="password" />
+        <span asp-validation-for="login.Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+<div class="text-danger">
+    @if (ModelState.IsValid == false)
+    {
+        <p>Invalid login attempt. Please try again.</p>
+    }
+</div>

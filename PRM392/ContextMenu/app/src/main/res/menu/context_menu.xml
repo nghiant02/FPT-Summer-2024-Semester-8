@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuDo"
+        android:title="Màu đỏ"/>
+    <item
+        android:id="@+id/menuVang"
+        android:title="Màu vàng"/>
+    <item
+        android:id="@+id/menuXanh"
+        android:title="Màu xanh"/>
+</menu>

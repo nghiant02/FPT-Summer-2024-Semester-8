@@ -1,0 +1,6 @@
+@PEPRN231_SU24_009909_NguyenTrongNghia_BE_HostAddress = http://localhost:5073
+
+GET {{PEPRN231_SU24_009909_NguyenTrongNghia_BE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

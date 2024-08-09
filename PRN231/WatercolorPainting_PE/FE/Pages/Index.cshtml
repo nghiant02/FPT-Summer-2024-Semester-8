@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@if (Model.Paintings != null && Model.Paintings.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Painting ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Publish Year</th>
+                <th>Style</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var painting in Model.Paintings)
+            {
+                <tr>
+                    <td>@painting.PaintingId</td>
+                    <td>@painting.PaintingName</td>
+                    <td>@painting.PaintingDescription</td>
+                    <td>@painting.PaintingAuthor</td>
+                    <td>@painting.Price?.ToString("C")</td>
+                    <td>@painting.PublishYear</td>
+                    <td>@painting.StyleName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No paintings available.</p>
+}

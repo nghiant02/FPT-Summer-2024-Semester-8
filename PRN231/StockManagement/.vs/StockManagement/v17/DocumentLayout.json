@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0C8746-F8D3-4EA9-BD2A-5906F1A695E8}|StockManager.DAO\\StockManager.DAO.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\prn231\\stockmanagement\\stockmanager.dao\\stocks2024dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0C8746-F8D3-4EA9-BD2A-5906F1A695E8}|StockManager.DAO\\StockManager.DAO.csproj|solutionrelative:stockmanager.dao\\stocks2024dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3382B04E-DD6D-48DC-A14F-9649C894214F}|StockManage.API\\StockManage.API.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\prn231\\stockmanagement\\stockmanage.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3382B04E-DD6D-48DC-A14F-9649C894214F}|StockManage.API\\StockManage.API.csproj|solutionrelative:stockmanage.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3382B04E-DD6D-48DC-A14F-9649C894214F}|StockManage.API\\StockManage.API.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\prn231\\stockmanagement\\stockmanage.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3382B04E-DD6D-48DC-A14F-9649C894214F}|StockManage.API\\StockManage.API.csproj|solutionrelative:stockmanage.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C9F9FC-C5B2-49A6-9745-ADCCF09903FC}|StockManager.Repository\\StockManage.Repository.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\prn231\\stockmanagement\\stockmanager.repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C9F9FC-C5B2-49A6-9745-ADCCF09903FC}|StockManager.Repository\\StockManage.Repository.csproj|solutionrelative:stockmanager.repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C9F9FC-C5B2-49A6-9745-ADCCF09903FC}|StockManager.Repository\\StockManage.Repository.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\prn231\\stockmanagement\\stockmanager.repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C9F9FC-C5B2-49A6-9745-ADCCF09903FC}|StockManager.Repository\\StockManage.Repository.csproj|solutionrelative:stockmanager.repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManage.API\\Program.cs",
+              "RelativeDocumentMoniker": "StockManage.API\\Program.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManage.API\\Program.cs",
+              "RelativeToolTip": "StockManage.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:57:25.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.Repository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "StockManager.Repository\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.Repository\\IAccountRepository.cs",
+              "RelativeToolTip": "StockManager.Repository\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:27:21.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "StockManager.Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.Repository\\AccountRepository.cs",
+              "RelativeToolTip": "StockManager.Repository\\AccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:27:00.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManage.API\\appsettings.json",
+              "RelativeDocumentMoniker": "StockManage.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManage.API\\appsettings.json",
+              "RelativeToolTip": "StockManage.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T14:49:49.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stocks2024DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.DAO\\Stocks2024DBContext.cs",
+              "RelativeDocumentMoniker": "StockManager.DAO\\Stocks2024DBContext.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\PRN231\\StockManagement\\StockManager.DAO\\Stocks2024DBContext.cs*",
+              "RelativeToolTip": "StockManager.DAO\\Stocks2024DBContext.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:49:07.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

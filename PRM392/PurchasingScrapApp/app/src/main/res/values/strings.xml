@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scrap App</string>
+    <string name="scrap_image">Scrap Image</string>
+    <string name="edit_scrap">Edit Scrap</string>
+    <string name="delete_scrap">Delete Scrap</string>
+    <string name="send_message">Send Message</string>
+
+    <string-array name="scrap_categories">
+        <item>Metal</item>
+        <item>Plastic</item>
+        <item>Paper</item>
+        <item>Glass</item>
+        <item>Electronics</item>
+    </string-array>
+</resources>

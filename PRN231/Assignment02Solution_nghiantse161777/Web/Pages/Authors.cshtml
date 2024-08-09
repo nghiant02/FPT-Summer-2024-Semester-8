@@ -1,0 +1,75 @@
+﻿@page
+@model Web.Pages.AuthorsModel
+@{
+    ViewData["Title"] = "Authors";
+}
+<div class="text-center">
+    <h3 class="display-7">Add Author</h3>
+</div>
+<div class="d-flex justify-content-center">
+    <form method="post" style="width:520px">
+        <div class="form-group">
+            <label asp-for="Author.FirstName">First Name:</label>
+            <input asp-for="Author.FirstName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Author.LastName">Last Name:</label>
+            <input asp-for="Author.LastName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>City:</label>
+            <select asp-for="Author.City" class="form-control">
+                <option value="">Select City</option>
+                @foreach (var city in Model.VietnameseCities)
+                {
+                    <option value="@city">@city</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Author.EmailAddress">Email Address:</label>
+            <input asp-for="Author.EmailAddress" class="form-control" />
+        </div>
+        <div class="pt-3">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary" onclick="clearForm()">Clear</button>
+        </div>
+    </form>
+</div>
+@if (Model.Authors != null && Model.Authors.Any())
+{
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+                <th>Email Address</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var author in Model.Authors)
+            {
+                <tr>
+                    <td>@author.FirstName</td>
+                    <td>@author.LastName</td>
+                    <td>@author.City</td>
+                    <td>@author.EmailAddress</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-page="./EditAuthor" asp-route-id="@author.AuthorId"
+                               class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-page="./DeleteAuthor" asp-route-id="@author.AuthorId"
+                               class="btn btn-sm btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No authors found.</p>
+}

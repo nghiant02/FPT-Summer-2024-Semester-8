@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|d:\\thithuprn231\\peprn231_su24trialtest_studentfullname_be\\peprn231_su24trialtest_studentfullname_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|solutionrelative:peprn231_su24trialtest_studentfullname_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|d:\\thithuprn231\\peprn231_su24trialtest_studentfullname_be\\peprn231_su24trialtest_studentfullname_be\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|solutionrelative:peprn231_su24trialtest_studentfullname_be\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E49CF0-BED8-45CE-A1F1-B22022E2D99C}|BusinessObjects\\BusinessObjects.csproj|d:\\thithuprn231\\peprn231_su24trialtest_studentfullname_be\\businessobjects\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E49CF0-BED8-45CE-A1F1-B22022E2D99C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|d:\\thithuprn231\\peprn231_su24trialtest_studentfullname_be\\peprn231_su24trialtest_studentfullname_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398E8909-21FE-4598-95EE-E0435816A208}|PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE.csproj|solutionrelative:peprn231_su24trialtest_studentfullname_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767F8DC6-3B5A-46BB-89A0-FFFF2F86610F}|Repository\\Repository.csproj|d:\\thithuprn231\\peprn231_su24trialtest_studentfullname_be\\repository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767F8DC6-3B5A-46BB-89A0-FFFF2F86610F}|Repository\\Repository.csproj|solutionrelative:repository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "PEPRN231_SU24TrialTest_StudentFullname_BE\\appsettings.json",
+              "ToolTip": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\appsettings.json",
+              "RelativeToolTip": "PEPRN231_SU24TrialTest_StudentFullname_BE\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-21T04:40:51.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Program.cs",
+              "RelativeDocumentMoniker": "PEPRN231_SU24TrialTest_StudentFullname_BE\\Program.cs",
+              "ToolTip": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Program.cs",
+              "RelativeToolTip": "PEPRN231_SU24TrialTest_StudentFullname_BE\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T03:22:05.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Repository\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TokenRepository.cs",
+              "ToolTip": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Repository\\TokenRepository.cs",
+              "RelativeToolTip": "Repository\\TokenRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T03:20:27.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\BusinessObjects\\Models\\UserAccount.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\UserAccount.cs",
+              "ToolTip": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\BusinessObjects\\Models\\UserAccount.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\UserAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T03:19:23.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAccountController.cs",
+              "DocumentMoniker": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Controllers\\UserAccountController.cs",
+              "RelativeDocumentMoniker": "PEPRN231_SU24TrialTest_StudentFullname_BE\\Controllers\\UserAccountController.cs",
+              "ToolTip": "D:\\ThiThuPrn231\\PEPRN231_SU24TrialTest_StudentFullname_BE\\PEPRN231_SU24TrialTest_StudentFullname_BE\\Controllers\\UserAccountController.cs",
+              "RelativeToolTip": "PEPRN231_SU24TrialTest_StudentFullname_BE\\Controllers\\UserAccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACsAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T03:16:52.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

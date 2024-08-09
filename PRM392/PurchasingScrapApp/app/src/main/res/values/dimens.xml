@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="space20">20dp</dimen>
+    <dimen name="space40">40dp</dimen>
+    <dimen name="txt10">10sp</dimen>
+    <dimen name="txt14">14sp</dimen>
+    <dimen name="txt16">16sp</dimen>
+    <dimen name="txt22">22sp</dimen>
+    <dimen name="btn_width">250dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
+</resources>

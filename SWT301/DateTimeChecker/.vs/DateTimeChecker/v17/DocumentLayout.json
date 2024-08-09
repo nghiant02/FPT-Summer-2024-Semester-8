@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\swt301\\datetimechecker\\datetimechecker.tests\\isvaliddatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|solutionrelative:datetimechecker.tests\\isvaliddatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\swt301\\datetimechecker\\datetimechecker.tests\\daysinmonthtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|solutionrelative:datetimechecker.tests\\daysinmonthtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\swt301\\datetimechecker\\datetimechecker.tests\\datetimechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0777EE63-06FE-40B1-B630-BC73A0772066}|DateTimeChecker.Tests\\DateTimeChecker.Tests.csproj|solutionrelative:datetimechecker.tests\\datetimechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4215369A-7FA6-4701-969E-4AD42199E346}|DateTimeChecker\\DateTimeChecker.csproj|c:\\users\\nghia\\onedrive\\documents\\fpt summer 2024 semester 8\\swt301\\datetimechecker\\datetimechecker\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4215369A-7FA6-4701-969E-4AD42199E346}|DateTimeChecker\\DateTimeChecker.csproj|solutionrelative:datetimechecker\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4215369A-7FA6-4701-969E-4AD42199E346}|DateTimeChecker\\DateTimeChecker.csproj|C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\datetimechecker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4215369A-7FA6-4701-969E-4AD42199E346}|DateTimeChecker\\DateTimeChecker.csproj|solutionrelative:datetimechecker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker\\Form1.cs",
+              "RelativeDocumentMoniker": "DateTimeChecker\\Form1.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker\\Form1.cs [Design]",
+              "RelativeToolTip": "DateTimeChecker\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:19:00.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "DateTimeChecker\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker\\Form1.Designer.cs",
+              "RelativeToolTip": "DateTimeChecker\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:43:57.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IsValidDateTests.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\IsValidDateTests.cs",
+              "RelativeDocumentMoniker": "DateTimeChecker.Tests\\IsValidDateTests.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\IsValidDateTests.cs",
+              "RelativeToolTip": "DateTimeChecker.Tests\\IsValidDateTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:43:27.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DaysInMonthTests.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\DaysInMonthTests.cs",
+              "RelativeDocumentMoniker": "DateTimeChecker.Tests\\DaysInMonthTests.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\DaysInMonthTests.cs",
+              "RelativeToolTip": "DateTimeChecker.Tests\\DaysInMonthTests.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:42:54.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateTimeChecker.cs",
+              "DocumentMoniker": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\DateTimeChecker.cs",
+              "RelativeDocumentMoniker": "DateTimeChecker.Tests\\DateTimeChecker.cs",
+              "ToolTip": "C:\\Users\\nghia\\OneDrive\\Documents\\FPT Summer 2024 Semester 8\\SWT301\\DateTimeChecker\\DateTimeChecker.Tests\\DateTimeChecker.cs",
+              "RelativeToolTip": "DateTimeChecker.Tests\\DateTimeChecker.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:33:22.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

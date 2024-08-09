@@ -1,0 +1,46 @@
+﻿@page
+@model eStoreClient.Pages.Products.SearchModel
+@{
+    ViewData["Title"] = "Search Products";
+}
+
+<h1>Search Products</h1>
+
+<form method="get">
+    <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input type="text" class="form-control" id="ProductName" name="ProductName" value="@Model.ProductName" />
+    </div>
+    <div class="form-group">
+        <label for="UnitPrice">Unit Price</label>
+        <input type="number" class="form-control" id="UnitPrice" name="UnitPrice" value="@Model.UnitPrice" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model.Products != null && Model.Products.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Unit Price</th>
+                <th>Units In Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.UnitPrice</td>
+                    <td>@product.UnitsInStock</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products found.</p>
+}

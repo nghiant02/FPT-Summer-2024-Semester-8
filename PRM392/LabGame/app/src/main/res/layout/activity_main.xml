@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f2f2f2">
+
+    <TextView
+        android:id="@+id/moneyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money: $1000"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/horse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb" />
+
+    <SeekBar
+        android:id="@+id/horse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/horse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/betHorse1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Bet on Horse 1"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/betHorse2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Bet on Horse 2"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/betHorse3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Bet on Horse 3"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#f44336"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>

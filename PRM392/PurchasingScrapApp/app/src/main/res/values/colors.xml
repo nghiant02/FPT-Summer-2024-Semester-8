@@ -1,0 +1,10 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="txt_hint">#808080</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorError">#B00020</color>
+</resources>

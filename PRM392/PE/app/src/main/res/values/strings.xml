@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PE</string>
+    <string name="default_web_client_id">104197730105-1p86399cd8hiskenh8t4smna8c486ra9.apps.googleusercontent.com</string>
+    <string name="google_maps_key" translatable="false">AIzaSyCPEIxlczOmvKpP7GlS-P2iUE9xj-eNB1w</string>
+</resources>

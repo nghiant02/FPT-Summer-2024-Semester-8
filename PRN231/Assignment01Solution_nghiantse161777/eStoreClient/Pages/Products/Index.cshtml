@@ -1,0 +1,42 @@
+﻿@page
+@model eStoreClient.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Products</h2>
+
+<p>
+    <a class="btn btn-primary" asp-page="/Products/Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Weight</th>
+            <th>Unit Price</th>
+            <th>Units In Stock</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.ProductId</td>
+                <td>@product.ProductName</td>
+                <td>@product.Weight</td>
+                <td>@product.UnitPrice</td>
+                <td>@product.UnitsInStock</td>
+                <td>@product.CategoryName</td>
+                <td>
+                    <a asp-page="/Products/Edit" asp-route-id="@product.ProductId" class="btn btn-primary">Edit</a>
+                    <a asp-page="/Products/Delete" asp-route-id="@product.ProductId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

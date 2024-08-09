@@ -1,0 +1,40 @@
+﻿@page
+@model eStoreClient.Pages.OrderDetails.IndexModel
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<p>
+    <a class="btn btn-primary" asp-page="/OrderDetails/Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Product ID</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Discount</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.OrderDetails)
+        {
+            <tr>
+                <td>@detail.OrderId</td>
+                <td>@detail.ProductId</td>
+                <td>@detail.UnitPrice</td>
+                <td>@detail.Quantity</td>
+                <td>@detail.Discount</td>
+                <td>
+                    <a asp-page="/OrderDetails/Edit" asp-route-id="@detail.OrderId" class="btn btn-primary">Edit</a>
+                    <a asp-page="/OrderDetails/Delete" asp-route-id="@detail.OrderId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

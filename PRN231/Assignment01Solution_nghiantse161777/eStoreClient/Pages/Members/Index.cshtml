@@ -1,0 +1,38 @@
+﻿@page
+@model eStoreClient.Pages.Members.IndexModel
+
+@{
+    ViewData["Title"] = "Members";
+}
+
+<h1>Members</h1>
+
+<p>
+    <a asp-page="./Create" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Company Name</th>
+            <th>City</th>
+            <th>Country</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Members)
+        {
+            <tr>
+                <td>@item.Email</td>
+                <td>@item.CompanyName</td>
+                <td>@item.City</td>
+                <td>@item.Country</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.MemberId" class="btn btn-primary">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@item.MemberId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

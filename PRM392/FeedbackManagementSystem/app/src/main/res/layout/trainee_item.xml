@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/labelName"
+        android:layout_alignBaseline="@id/labelName"/>
+
+    <TextView
+        android:id="@+id/labelEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/name"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/labelEmail"
+        android:layout_alignBaseline="@id/labelEmail"/>
+
+    <TextView
+        android:id="@+id/labelPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/email"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/labelPhone"
+        android:layout_alignBaseline="@id/labelPhone"/>
+
+    <TextView
+        android:id="@+id/labelGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới Tính:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/phone"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/labelGender"
+        android:layout_alignBaseline="@id/labelGender"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/gender"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/gender"
+        android:layout_toStartOf="@id/btnEdit"
+        android:layout_marginEnd="8dp"/>
+</RelativeLayout>

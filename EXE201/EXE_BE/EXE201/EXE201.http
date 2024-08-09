@@ -1,0 +1,6 @@
+@EXE201_HostAddress = http://localhost:5242
+
+GET {{EXE201_HostAddress}}/api/GetAllCarts
+Accept: application/json
+
+###

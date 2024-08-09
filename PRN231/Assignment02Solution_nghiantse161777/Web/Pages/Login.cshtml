@@ -1,0 +1,26 @@
+﻿@page
+@model Web.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Login.Email">Email:</label>
+        <input asp-for="Login.Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Login.Password">Password:</label>
+        <input asp-for="Login.Password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <a>Don't have an account? <a asp-page="/Register">Register</a></a>
+</form>
+@if (Model.ErrorMessages != null && Model.ErrorMessages.Any())
+{
+    <div class="alert alert-danger" role="alert">
+        @foreach (var error in Model.ErrorMessages)
+        {
+            <p>@error</p>
+        }
+    </div>
+}

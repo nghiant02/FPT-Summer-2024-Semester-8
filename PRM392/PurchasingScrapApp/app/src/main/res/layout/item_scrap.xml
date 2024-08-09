@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/image_view_scrap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/scrap_image" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image_view_scrap"
+        android:layout_marginStart="16dp"
+        android:text="Scrap Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_name"
+        android:layout_toEndOf="@id/image_view_scrap"
+        android:layout_marginStart="16dp"
+        android:text="Scrap Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_view_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_description"
+        android:layout_toEndOf="@id/image_view_scrap"
+        android:layout_marginStart="16dp"
+        android:text="Location"
+        android:textSize="14sp" />
+</RelativeLayout>

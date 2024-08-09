@@ -1,0 +1,54 @@
+﻿@page
+@model Web.Pages.EditAuthorModel
+@{
+    ViewData["Title"] = "Edit Author";
+}
+<h1>Edit Author - @Model.Author.FirstName @Model.Author.LastName</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Author.FirstName">First Name:</label>
+        <input asp-for="Author.FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.LastName">Last Name:</label>
+        <input asp-for="Author.LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.MiddelName">Middle Name:</label>
+        <input asp-for="Author.MiddelName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.Phone">Phone:</label>
+        <input asp-for="Author.Phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.Address">Address:</label>
+        <input asp-for="Author.Address" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>City:</label>
+        <select asp-for="Author.City" class="form-control">
+            <option value="">Select City</option>
+            @foreach (var city in Model.VietnameseCities)
+            {
+                <option value="@city">@city</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.State">State:</label>
+        <input asp-for="Author.State" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.Zip">Zip:</label>
+        <input asp-for="Author.Zip" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author.EmailAddress">Email Address:</label>
+        <input asp-for="Author.EmailAddress" class="form-control" />
+    </div>
+    <div class="pt-3">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-page="/Authors" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

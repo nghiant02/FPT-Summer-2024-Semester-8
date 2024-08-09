@@ -1,0 +1,21 @@
+﻿@page "{id:int}"
+@model eStoreClient.Pages.Orders.DeleteModel
+@{
+    ViewData["Title"] = "Delete Order";
+}
+
+<h1>Delete Order</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <h4>Are you sure you want to delete this order?</h4>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                <a asp-page="./Index">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
